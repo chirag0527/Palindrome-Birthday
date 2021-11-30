@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('background.jpg');
+    color: rgb(0, 0, 0);
+}
+
+
+.flex-container{
+    background-color: rgb(238, 231, 231);
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    width: 40vw;
+    height: 35vh;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 30vw;
+    border-radius: 10px;
+}
+
+#showBtn{
+    background-color: rgb(231, 120, 189);
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+
+}
+
+#showBtn:hover{
+    cursor: pointer;
+}
+
+#bdayInput{
+    background-color: rgb(243, 207, 243);
+    border: none;
+    font-size: 1rem;
+    padding: 0.2rem;
+    width: 15vw;
+}
+
+#bdayInput:focus{
+    outline: none;
+}
+
+.spin{
+    width: 12rem;
+}
